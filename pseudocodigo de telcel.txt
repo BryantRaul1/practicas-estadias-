@@ -1,0 +1,50 @@
+testInformacionCelular(){
+	ingresar("http://www.telcel.com")
+	seleccionarTiendaEnLinea("smartphone")
+	seleccionarEstado("tlaxcala")
+	verificarPaginaResultados()
+	capturarInformacionTelefonoMasCaro()
+	seleccionarTelefonoMasCaro()
+	verificarInformacionTelefono()
+}
+
+ingresar(url) {
+	abrir Navegador
+	ingresar La Url
+	esperar A Que Sea Visible El Logo Y El Link De La Tienda En Linea
+	Validar Pagina Inicio
+	Validar Logo
+	Validar Link De Tienda En Linea
+}
+
+seleccionarDeTiendaEnLinea(){
+	Desplegar Menu Tienda En Linea
+	Click En El Link De La Opcion	
+}
+
+seleccionarEstados(nombreEstado){
+	esperar Pantalla Emergente De Ubicacion (30000)
+	click En El Combo Seleccionar Tu Estado
+	ingresar El Estado (Nuevo Leon)
+	click En El Boton Entrar
+}
+
+verificarPaginaResultados(){
+	esperar Carga De Pantalla De Smatphone (10000)
+}
+
+capturarInformacionTelefonoMasCaro(){
+	ubicar La Seccion Filtrar Por
+	click En Precios
+}
+
+seleccionarTelefonoMasCaro(){
+	seleccionar El Rango Mas Alto Precios
+	click En Aplicar 
+	esperar A que Cargue La Pagina Con Los Telefonos De Precios Altos
+}
+
+verificarInformacionTelefonos(){
+	click En El Telefono Mas Caro
+	espera A Que Cargue El Detalle Del Celular (10000)
+}

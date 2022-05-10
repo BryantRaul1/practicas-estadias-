@@ -1,0 +1,530 @@
+{
+  "id": "c89877b4-0a1b-4fb1-b5a5-d8e5685558ab",
+  "version": "2.0",
+  "name": "Prueba0.2",
+  "url": "https://international-song-database.herokuapp.com",
+  "tests": [{
+    "id": "a132d9dc-6e28-4e74-8090-f53ae8aa011c",
+    "name": "Prueba0.2",
+    "commands": [{
+      "id": "2f3a0024-d5b2-4e84-80a6-ea05c076a5c9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "237807d7-68b4-4ab4-9093-3239de03ae49",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "316f9bf6-c3b2-4a39-885a-47e2f255543b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.ml-auto > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/register')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f40db51-36fb-4f3e-b4f2-5829c3126345",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4721e011-f5b9-4ef3-84ba-2bc1bc531663",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kafaia35"
+    }, {
+      "id": "754af0bf-c8aa-453e-8e2b-6d0de06f8c5b",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa9ffa8-8cfa-486c-8186-c7fc2aeaf2c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "11e17e66-6786-4f44-b6d0-ce2492b8b6a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=repeat_password",
+      "targets": [
+        ["name=repeat_password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='repeat_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de784e4-0222-433e-9192-6d8ba269358f",
+      "comment": "",
+      "command": "type",
+      "target": "name=repeat_password",
+      "targets": [
+        ["name=repeat_password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='repeat_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "6a034d7b-e892-4d8f-8ab0-8425b6724e40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc1ef54b-4cd1-449f-ac05-f2d6158c7c86",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0c299e-ab5d-49a1-821f-e53d23b8f5af",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kafaia35"
+    }, {
+      "id": "6f8764ab-3a3f-44bc-8653-8ab07619bb1f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2d46ef-a569-4082-bd4d-ae6b87c8823f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "9914fd2f-d5ba-4c6e-82b8-9a58dcd93426",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7820a9e3-5c2c-44be-a209-88b9e1da440f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Songs",
+      "targets": [
+        ["linkText=Songs", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Songs')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/songs')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Songs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3529beb6-cc0d-42d7-96c4-fe66ef18c3be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create a new Song",
+      "targets": [
+        ["linkText=Create a new Song", "linkText"],
+        ["css=.col-12 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create a new Song')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/songs/new')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create a new Song')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70e40ba4-82c3-43c4-88cc-1a26172ccde3",
+      "comment": "",
+      "command": "click",
+      "target": "name=artist",
+      "targets": [
+        ["name=artist", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='artist']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e13b1c1-c96c-45e4-85ce-37b537138680",
+      "comment": "",
+      "command": "type",
+      "target": "name=artist",
+      "targets": [
+        ["name=artist", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='artist']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aleman34"
+    }, {
+      "id": "1bc18f33-8207-42d7-ab9b-be2f02c9bcca",
+      "comment": "",
+      "command": "click",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.form-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0432b271-3823-4cb4-96b0-90178de1cd5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.form-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='country']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Mexico"
+    }, {
+      "id": "4a07581a-54e5-4b36-8ffe-c2c9c5ca2db6",
+      "comment": "",
+      "command": "click",
+      "target": "name=title",
+      "targets": [
+        ["name=title", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='title']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a523a6c-be59-41bc-936f-af47e5db3a3e",
+      "comment": "",
+      "command": "type",
+      "target": "name=title",
+      "targets": [
+        ["name=title", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='title']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Perro de cadena gruesa1"
+    }, {
+      "id": "c961b1eb-1b7a-4e60-87fa-ee6afbbf8c0b",
+      "comment": "",
+      "command": "click",
+      "target": "name=duration",
+      "targets": [
+        ["name=duration", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='duration']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9d463e9-6c98-4808-b4e3-0915f9b20933",
+      "comment": "",
+      "command": "type",
+      "target": "name=duration",
+      "targets": [
+        ["name=duration", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='duration']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "180"
+    }, {
+      "id": "643e4f2a-6e8d-41f8-b044-70ae96aefa62",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=lyrics", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d9a9e77-db39-4b8a-bea9-400792e6cd95",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=lyrics", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "quefnv vkm dmvd"
+    }, {
+      "id": "19d60546-1e37-4145-99dc-b5aaa402f8b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Song')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd7f806f-52ec-42ef-8ee4-bdc5a903f144",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon",
+      "targets": [
+        ["css=.glyphicon", "css:finder"],
+        ["xpath=//div[@id='song_card']/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Like')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a823a94-af75-4149-bc27-a6062eb64f5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Back to Songs",
+      "targets": [
+        ["linkText=Back to Songs", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to Songs')]", "xpath:link"],
+        ["xpath=//div[@id='song_card']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/songs')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to Songs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5846f74a-1378-486b-8686-1663c92e849e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c37f6564-1b78-48be-80cd-fff9df3c47eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e593899-b838-430f-acbe-72586083b74c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.mr-auto > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d4341a-1461-4598-8f72-94c7f401bf16",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contact')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5219b9d-4d44-4217-b09d-ce07086056a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16622cdf-0f05-4028-b05c-8bad288bfda4",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kafai"
+    }, {
+      "id": "14d24d2f-8727-4d11-9c93-cbcbbb958d89",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7465a4ac-1671-462f-9808-94e83c62df78",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lolo@gmail.com"
+    }, {
+      "id": "43867217-7a60-4843-a902-8c4fea91572a",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d036c3-e334-4461-944c-d3bf73e9078d",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lolom,kniiuboudsfgdhahtr"
+    }, {
+      "id": "64d4f811-0ca3-4b46-9107-78406e306401",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send Message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d2120d2d-0ea3-443c-8cfd-1d8ce489d178",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a132d9dc-6e28-4e74-8090-f53ae8aa011c"]
+  }],
+  "urls": ["https://international-song-database.herokuapp.com/"],
+  "plugins": []
+}

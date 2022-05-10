@@ -1,0 +1,56 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Curriculum</title>
+</head>
+<body bgcolor="#F9F9F9">
+	<center>
+		<h1>Curriculum</h1>
+		<form action="formulario.php" method="POST">
+			
+			<fieldset>
+				<legend><h2>Solicitud de empleo</h2></legend>
+				<br>Selecciona el puesto:
+				<p><select name="menu">
+					<option value="...     ">.....</option>
+					<option>Base de datos</option>
+					<option>Desarrollador</option>
+					<option>Redes</option>
+					<option>Tester</option>
+					<option>Analista</option>
+				</select>
+				</p>
+				<p>Fecha: <input type="date" name="Dia"></p>
+			</fieldset>
+
+			<fieldset>
+				<legend><h2>Datos personales</h2></legend>
+				<p>Nombre: <input type="text" name="nombre" size="30" placeholder="Escriba su Nombre"></p>
+				<p>Apellidos: <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos"></p>
+				<p>Edad: <input type="number" name="edad"></p>
+				<p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+				<p>Nacionalidad <input type="text" name="nacionalidad" size="20"></p>
+
+				<p>Genero:
+					<p><input type="radio" name="genero" value="hombre">Hombre
+						<input type="radio" name="genero" value="mujer">Mujer</p>
+						<p>Telefono: <input type="tel" name="Telefono" size="21" placeholder="Escriba su numero telefonico"></p>
+						<p>Municipio: <input type="text" name="muni" size="30" placeholder="Municipio donde actualmente reside"></p>
+						<p>Colonia: <input type="text" name="Coloni" size="30" placeholder="Colonia en el cual reside"></p>
+						<p>Calle: <input type="text" name="calle" size="30" placeholder="Calle en el cual reside"></p>
+						<p>Correo electronico: <input type="text" name="Correo" size="30"></p>
+
+						<p>Estado Civil: 
+							<p><input type="radio" name="Estado" value="Casado">Casado
+								<input type="radio" name="Estado" value="Soltero">Soltero</p>
+								<p><input type="submit" value="Enviar"></p>
+
+					
+				</p>
+			</fieldset>
+		</form>
+	</center>
+
+</body>
+</html>
